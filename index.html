@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+                div.tourist-places-container {
+                        display: flex;
+                        /* Use flexbox layout */
+                        justify-content: space-around;
+                        /* Distribute items evenly look at the article of w3 schools on justify-content which demonstrates different values which can be assigned to this attribute */
+                        flex-wrap: wrap;
+                        /*Wrap items if they exceed the container width*/
+                        /*In the provided HTML and CSS code, the <div> elements with the class .tourist-places are the flexible items. They are being arranged horizontally due to the display: flex; property applied to their parent container .tourist-places-container. */
+                        margin: auto;
+                        /* Center the container horizontally aligns with right and left of the screen*/
+                        max-width: 1400px;
+                        /* Set maximum horizantal width*/
+                }
+
+                /* Style for each tourist place */
+                div.tourist-places {
+                        width: calc(33.33% - 20px);
+                        /* Calculate width for each place (also can be used to calculate distances containing different units)*/
+                        /* - 20px will be used to set margin between each place and remember that there must be spacing on both sides of the operand in calc function*/
+                        margin-bottom: 20px;
+                        /* Add some bottom margin for spacing after each tourist-places class*/
+                        text-align: center;
+                        background-color: rgb(38, 39, 39);
+                }
+
+                div.tourist-places img {
+                        max-width: 90%;
+                        /* Ensure images don't exceed their container width(max width of image will be 90% of the containers width) */
+                        height: auto;
+                        /* Maintain orignal aspect ratio of the image height will be adjusted according to width */
+                }
+
+                body {
+                        background-color: rgb(0, 0, 0);
+                        color: white;
+                }
+
+                div.description {
+                        text-align: justify;
+                        /* aligns the text with right and left */
+                        padding: auto;
+                }
+        </style>
+        <title>Exploring gems of MUMBAI</title>
+</head>
+
+<body>
+        <h2 style="padding-left: 450px">Welcome To</h2>
+        <h1 style="text-align: center; font-size: 90px">MUMBAI</h1>
+        <h2 style="text-align: right; padding-right: 400px">
+                - The city of dreams
+        </h2>
+        <div class="tourist-places-container">
+                <div class="tourist-places">
+                        <div class="images">
+                                <h1>1. Hotel Taj Palace</h1>
+                                <img src="hotel taj.jpg
+        " alt="https://media.istockphoto.com/id/641658122/photo/the-taj-palace-in-mumbai.jpg?s=2048x2048&w=is&k=20&c=f-JSR8C82VvH2yywXRktVyDQTxcyMqv-zhxQtgzo_oE="
+                                        height="320" width="460" />
+                        </div>
+                        <div class="description">
+                                The Taj Mahal Palace is a heritage, five-star, luxury hotel in the
+                                Colaba area of Mumbai, Maharashtra, India, situated next to the
+                                Gateway of India. Built in the Indo-Saracenic style, it opened in 1903
+                                as the Taj Mahal Hotel and has historically often been known simply as
+                                "The Taj". The hotel is named after the Taj Mahal, which is located in
+                                the city of Agra approximately 1,050 kilometres (650 mi) from Mumbai.
+                        </div>
+                </div>
+                <div class="tourist-places">
+                        <h1>2. Gateway Of India</h1>
+                        <div class="images">
+                                <img src="gateway of india.jpg"
+                                        alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fplanetofhotels.com%2Fguide%2Fen%2Findia%2Fmumbai%2Fgateway-india&psig=AOvVaw27XzYVZB4B9wOdzshZ87F-&ust=1707121781158000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCODAg7GikYQDFQAAAAAdAAAAABAD"
+                                        height="300" width="470" />
+                        </div>
+                        <div class="description">
+                                The Gateway of India is an arch-monument completed in 1924 on the
+                                waterfront of Mumbai (Bombay), India. It was erected to commemorate
+                                the landing of George V for his coronation as the Emperor of India in
+                                December 1911 at Strand Road near Wellington Fountain. He was the
+                                first British monarch to visit India. The foundation stone was laid in
+                                March 1913 for a monument built in the Indo-Islamic style, inspired by
+                                elements of 16th-century Gujarati architecture. The final design of
+                                the monument by architect George Wittet was sanctioned only in 1914,
+                                and construction was completed in 1924. The structure is a memorial
+                                arch made of basalt, which is 26 metres (85 feet) high, with an
+                                architectural resemblance to a triumphial arch as well as Gujarati
+                                architecture of the time.
+                        </div>
+                </div>
+                <div class="tourist-places">
+                        <h1>3. Marine Drive</h1>
+                        <div class="images">
+                                <img src="marine drive.jpg"
+                                        alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Dmarine%2Bdrive&psig=AOvVaw2YQZEWM0UTYeMYCwatOtX3&ust=1707122547325000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCIiHn5-lkYQDFQAAAAAdAAAAABAD"
+                                        height="350" width="540" />
+                        </div>
+                        <div class="description">
+                                Marine Drive is a 3 kilometre-long Promenade along the Netaji Subhash
+                                Chandra Bose Road in Mumbai, India. The road and promenade were
+                                constructed by Pallonji Mistry. It is a banana-shaped, six-lane
+                                concrete road along the coast of a natural bay. At the northern end of
+                                Marine Drive is Girgaon Chowpatty and the adjacent road along links
+                                Nariman Point at southern tip to Babulnath and Malabar Hill at
+                                northern tip. Marine Drive is situated on reclaimed land facing
+                                west-south-west. Marine Drive is also known as the Queen's Necklace
+                                because, when viewed at night from an elevated point anywhere along
+                                the drive, the street lights resemble a string of pearls in a necklace
+                        </div>
+                </div>
+                <div class="tourist-places">
+                        <h1>4. Juhu Beach</h1>
+                        <div class="image">
+                                <img src="juhu-beach.jpg"
+                                        alt="https://www.godigit.com/content/dam/godigit/directportal/en/contenthm/juhu-beach.jpg"
+                                        height="320" width="520" />
+                        </div>
+                        <div class="description">
+                                It is the most popular beach of Mumbai . It lies about 25 km from the
+                                city centre. The marvelous beach lined by bungalows offers various
+                                entertainment and amusement facilities. Juhu Beach is one of the most
+                                famous beaches in Mumbai . It may be accessed from the suburbs of Vile
+                                Parle , Santacruz and Andheri. Many tourists make it a point to visit
+                                the beach when they come to Mumbai, as it is a relatively uncrowded
+                                free space in the city, although it does get crowded in the evenings
+                                and weekends.
+                        </div>
+                </div>
+                <div class="tourist-places">
+                        <h1>5. Alephenta-caves</h1>
+                        <div class="images">
+                                <img src="Alephenta-caves.jpg"
+                                        alt="https://ihplb.b-cdn.net/wp-content/uploads/2014/12/Alephenta-caves.jpg"
+                                        height="320" width="510" />
+                        </div>
+                        <div class="description">
+                                The Elephanta Caves are a coldiv of cave temples predominantly
+                                dedicated to the Hindu god Shiva, which have been designated a UNESCO
+                                World Heritage Site.They are on Elephanta Island, or Gharapuri
+                                (literally meaning "the city of caves"), in Mumbai Harbour, 10
+                                kilometres (6.2 mi) east of Mumbai in the Indian state of Mahārāshtra.
+                                The island, about 2 kilometres (1.2 mi) west of the Jawaharlal Nehru
+                                Port, consists of five Hindu caves, a few Buddhist stupa mounds that
+                                date back to the 2nd century BCE, and two Buddhist caves with water
+                                tanks.
+                        </div>
+                </div>
+                <div class="tourist-places">
+                        <h1>6. Chhatrapati Shivaji Terminus Railway Station</h1>
+                        <div class="images">
+                                <img src="shivaji maharaj terminus.jpg"
+                                        alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fchhatrapati-shivaji-terminus-cst&psig=AOvVaw1usXaGmcithq2WhIY4Ao9x&ust=1707123288954000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCg3P6nkYQDFQAAAAAdAAAAABAJ"
+                                        height="320" width="620" />
+                        </div>
+                        <div class="description">
+                                Chhatrapati Shivaji Terminus (officially Chhatrapati Shivaji Maharaj
+                                Terminus since 2017, formerly Victoria Terminus, Bombay station code:
+                                CSMT (mainline)(suburban)), is a historic railway terminus and UNESCO
+                                World Heritage Site in Mumbai, Maharashtra, India. The terminus was
+                                designed by a British architectural engineer Frederick William Stevens
+                                from an initial design by Axel Haig, in an exuberant Italian Gothic
+                                style. Its construction began in 1878, in a location south of the old
+                                Bori Bunder railway station, and was completed in 1887, the year
+                                marking 50 years of Queen Victoria's rule.
+                        </div>
+                </div>
+        </div>
+</body>
+
+</html>
